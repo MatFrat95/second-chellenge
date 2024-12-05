@@ -32,7 +32,7 @@ img {
   background-color: #fff;
   border: 1px solid black;
   border-radius: 15px;
-  box-shadow: 5px 5px 1px black;
+  box-shadow: 8px 8px 1px black;
 }
 
 .card__img {
@@ -41,23 +41,26 @@ img {
 
 .card__btn {
   padding: 0.5em 1em;
-  margin: 1.5em 0;
+  margin: 1.5em 0 1em;
   border: none;
   background-color: hsl(47, 88%, 63%);
   border-radius: 5px;
   font-weight: 800;
+  font-size: 12px;
   cursor: pointer;
 }
 
 .card__publication-info {
   margin-bottom: 1.25em;
   color: hsl(0, 0%, 7%);
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
 }
 
 .card__header {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 800;
+  font-size: 20px;
 }
 .card__header .card__link {
   text-decoration: none;
@@ -70,24 +73,25 @@ img {
 }
 
 .card__text {
+  margin-bottom: 0.25em;
   font-size: 16px;
   line-height: 1.5;
   color: hsl(0, 0%, 42%);
 }
 
 .card__author {
-  padding: 1.5em 0;
+  padding: 0.5em 0;
   display: flex;
   align-items: center;
 }
 
 .card__author-photo {
-  width: 40px;
+  width: 30px;
 }
 
 .card__author-data {
   margin-left: 1em;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 800;
 }
 
