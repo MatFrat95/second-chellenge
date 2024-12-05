@@ -53,14 +53,14 @@ img {
 .card__publication-info {
   margin-bottom: 1.25em;
   color: hsl(0, 0%, 7%);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
 }
 
 .card__header {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 16px;
 }
 .card__header .card__link {
   text-decoration: none;
@@ -74,7 +74,7 @@ img {
 
 .card__text {
   margin-bottom: 0.75em;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   color: hsl(0, 0%, 42%);
 }
